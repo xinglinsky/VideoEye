@@ -20,7 +20,7 @@
 //Tchart
 #include "stdafx.h"
 
-#include "ve_play.h"
+//#include "ve_play.h"
 
 //系统对话框
 #include "Welcome.h"

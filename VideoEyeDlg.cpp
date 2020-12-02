@@ -414,7 +414,7 @@ void CVideoEyeDlg::OnBnClickedOk()
 	if(GetURL()==-1){
 		return ;
 	}
-	pThreadPlay = AfxBeginThread(Thread_Play,this);//开启线程
+    pThreadPlay = AfxBeginThread(Thread_Play, this);//开启线程
 	ActiveBtn();
 	is_playing=1;
 
